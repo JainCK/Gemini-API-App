@@ -1,44 +1,36 @@
-#Opticode
-
-# Next.js Code Review App
-
-Welcome to the Next.js Code Review App! This application is designed to facilitate code reviews, leveraging the power of the Gemini API for enhanced functionality. It is built using Next.js for both the frontend and backend, providing a seamless and efficient user experience.
-
-## Tech Stack
-
-- **Frontend and Backend:** Next.js
-- **API Integration:** Gemini API
-- **Styling:** Tailwind CSS (if used, otherwise specify the CSS framework or custom CSS)
-
-## Features
-
-- **Code Review Management:**
-  - Create, view, and manage code review requests.
-  - Integrate with the Gemini API for advanced code analysis and insights.
-
-- **User Authentication:**
-  - Secure login and registration functionality.
-  
-- **Real-Time Updates:**
-  - Receive real-time updates on code review statuses and comments.
-
-- **Notifications:**
-  - Get notified about code review assignments, comments, and completions.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
+First, run the development server:
 
-- Node.js installed on your machine.
-- Access to the Gemini API (API keys and necessary permissions).
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Installation
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Clone the repository to your local machine.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-2. Navigate to the project directory.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-3. Install the required dependencies:
-   ```bash
-   npm install
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
