@@ -1,3 +1,5 @@
+#Opticode
+
 # Next.js Code Review App
 
 Welcome to the Next.js Code Review App! This application is designed to facilitate code reviews, leveraging the power of the Gemini API for enhanced functionality. It is built using Next.js for both the frontend and backend, providing a seamless and efficient user experience.
